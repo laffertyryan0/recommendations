@@ -44,10 +44,6 @@ public class Test{
     toby.addReview("Snakes",4.5);
     toby.addReview("You", 1.0);
     toby.addReview("Super", 4.0);
-    //System.out.println(rv.getRating("Lord of the Rings"));
-    /*for(int i = 0;i<rv.bookList().length;i++){
-      System.out.println(rv.bookList()[i]);
-    }*/
     Recommender rec = new Recommender();
     rec.addReviewer(lisa);
     rec.addReviewer(gene);
